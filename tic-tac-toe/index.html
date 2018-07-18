@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/styleTable.css">
+    <link rel="stylesheet" type="text/css" href="styles/styleScore.css">
+    <link rel="stylesheet" type="text/css" href="styles/styleButtons.css">
+</head>
+<body>
+    <div id="interface">
+        <header>
+            <h1>Tic-Tac-Toe</h1>
+        </header>
+        <nav></nav>
+        <section id="dados">
+            <section id="input">
+                <!-- INPUT -->
+                <label for="playerX">X:</label>
+                <input type="text" id="player" placeholder="Player 1" autofocus size=20>
+                <br><br>
+                <label for="playerO">O:</label>
+                <input type="text" id="playerO" placeholder="Player 2" size=20>
+            </section>
+            <section id="buttons">
+                <button id="reset">Reset</button>
+                <button id="novo">Novo</button>
+            </section>
+            <section id="output">
+            <!-- OUTPUT -->
+                <br>
+                <h3>Vitórias:</h3>
+                <label for="scoreX">X:</label>
+                <output type="number" id="scoreX">0</output>
+                <br>
+                <label for="scoreY">O:</label>
+                <output type="number" id="scoreO">0</output>
+                <br><br>
+                <label for="scoreE">Empates:</label>
+                <output type="number" id="empates">0</output>
+            </section>
+        </section>
+
+        <aside id="game">
+            <table>
+                <tbody>
+                    <tr>
+                        <td id="p1">t</td>
+                        <td id="p2">i</td>
+                        <td id="p3">c</td>
+                    </tr>
+                    <tr>
+                        <td id="p4">t</td>
+                        <td id="p5">a</td>
+                        <td id="p6">c</td>
+                    </tr>
+                    <tr>
+                        <td id="p7">t</td>
+                        <td id="p8">o</td>
+                        <td id="p9">e</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </aside>
+        <footer>
+            <p>Created By - Diego Costa</p>
+        </footer>
+    </div>
+    <script src="js/scan.js"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>

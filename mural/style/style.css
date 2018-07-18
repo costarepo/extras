@@ -1,0 +1,44 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+
+body {
+    background-color: #B0C4DE;
+}
+
+div#interface {
+    font-family: 'Gugi', cursive;
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+    color: #8FBC8F;
+    box-shadow: 3px 3px rgba(0, 0, 0, .5);
+}
+
+div#interface h1 {
+    font-size: 35pt;
+    border-bottom: dashed;
+}
+div#interface section{
+    float: left;
+    border-right: dashed;
+    border-top: dashed;
+    padding:10px;
+}
+
+div#interface aside {
+    max-width: 700px;
+    margin-right: 15%;
+    float: right;
+}
+
+div#interface footer {
+        border-top: dashed;
+        clear: both;
+}
+
+div#interface footer p{
+    text-align: center;
+}
+

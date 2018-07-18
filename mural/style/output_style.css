@@ -1,0 +1,26 @@
+@charset 'utf-8';
+
+div#interface aside table#primaria  {
+    display:block;
+    border-style: solid;
+}
+
+div#interface tbody#pai {
+    display:block;
+}
+
+table.item {
+    position: relative;
+    display:inline;
+}
+
+
+table.item td{
+    border-style:dotted;
+}
+
+div#interface aside output {
+    color: #B0C4DE;
+    font-size: 10pt;
+    float: left;
+}

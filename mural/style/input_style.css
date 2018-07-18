@@ -1,0 +1,20 @@
+@charset 'utf-8';
+
+div#interface input#title {
+    margin-bottom: 10px;
+
+}
+
+div#interface button {
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:4px;
+    background-color:#8FBC8F;
+    color:rgb(110, 124, 143);
+    transition: background-color 1s;
+}
+
+div#interface button:hover{
+    background-color: rgb(110, 124, 143);
+    color: #8FBC8F;
+}

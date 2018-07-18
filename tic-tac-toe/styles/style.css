@@ -1,0 +1,43 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+
+/*font-family: 'Permanent Marker',cursive;*/
+
+body {
+    background-color: rgb(160, 219, 142);
+}
+
+#interface {
+    margin: -20px auto 0 auto;
+    padding: 10px;
+    background-color: rgb(206, 159, 232);
+    border-radius:8px;
+    box-shadow: 3px 4px rgba(0,0,0,.4);
+}
+
+#dados {
+    float: left;
+}
+
+h1 {
+   font-family: 'Monoton', cursive, sans-serif;
+   font-size:3em;
+   letter-spacing: 1px;
+   color: rgb(160, 219, 142);
+   border-bottom: dotted;
+   text-shadow: 2px 2px rgba(0,0,0,.4);
+}
+
+footer {
+    clear:both;
+    border-top:dotted rgb(160, 219, 142);
+}
+
+footer p {
+    color: rgb(160, 219, 142);
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}

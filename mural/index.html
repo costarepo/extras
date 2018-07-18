@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mural</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/input_style.css">
+    <link rel="stylesheet" type="text/css" href="style/output_style.css">
+</head>
+<body>
+    <div id="interface">
+        <header>
+            <h1>Mural</h1>
+        </header>
+        <nav></nav>
+        <!-- input and button CRUD -->
+        <section>
+            <label for="title">Titulo:</label><br>
+            <input type="text" placeholder="titulo" id="title" size=20 autofocus><br>
+            <label for="input">Nova Tarefa:</label><br>
+            <textarea type="text" placeholder="Tarefa.." id="input" rows="8" cols="20"></textarea><br>
+            <button id="add">Adicionar</button>
+            <button id="del">Excluir Selecionados</button>
+        </section>
+        <aside>
+            <table id='primaria'>
+                <tbody id="pai">
+
+                </tbody>
+            </table>
+        </aside>
+        <br>
+        <footer>
+            <p>Created By - Diego Costa</p>
+        </footer>
+    </div>
+
+    <script src="script/CRUD.js"></script>
+    <script src="script/main.js" type="module"></script>
+</body>
+</html>
